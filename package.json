@@ -1,0 +1,26 @@
+{
+  "name": "my-portfolio-2",
+  "version": "1.0.0",
+  "description": "my second portfolio design and my website",
+  "main": "index.js",
+  "repository": "https://github.com/mohammadjavadnouri/my-portfolio-2.git",
+  "author": "Mohammadjavad Nouri",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "deploy": "cd out && now --public"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "next": "^10.0.6",
+    "node-sass": "^5.0.0",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
