@@ -7,6 +7,13 @@
   align-items: center;
   text-align: center;
   justify-content: center;
+  a {
+    color: black;
+    text-decoration: none;
+    &:visited {
+      color: black;
+    }
+  }
   div {
     margin-top: 50px;
   }
@@ -14,19 +21,4 @@
     width: 5%;
     margin-top: 100px;
   }
-  //   button {
-  //     width: 50px;
-  //     background-color: red;
-  //     cursor: pointer;
-  //     transition: 1s;
-  //     font-size: 20px;
-  //     margin: 10px;
-  //     border-radius: 20px;
-  //     font: inherit;
-  //     &:hover {
-  //       background-color: aqua;
-
-  //       transform: rotate(10deg);
-  //     }
-  //   }
 }

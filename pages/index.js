@@ -12,12 +12,15 @@ const Index = () => (
     </div>
     <div>
       <ButtonGroup variant="text" aria-label="text primary button group">
-        <Button>About</Button>
-        <Button>Works</Button>
-        <Button>Services</Button>
-        <Link href="/contact">
-          <Button>Contact</Button>
-        </Link>
+        <Button>
+          <Link href="/about">About</Link>
+        </Button>
+        <Button>
+          <Link href="/works">Works</Link>
+        </Button>
+        <Button>
+          <Link href="/contact">Contact</Link>
+        </Button>
       </ButtonGroup>
     </div>
     <div>
